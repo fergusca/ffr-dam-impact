@@ -10,23 +10,24 @@ The spatial join of Global Reservoir and Dam dataset (GRanD) and World’s Free-
 This repository could be used for future projections on how dams might change a river or how dam removal may benefit a river. 
 # How to Run
 ## Tools/ Packages
-*numpy
-*pandas
-*matplotlib
-*math
-*fiona
-*geopandas
-*rasterio
-*requests
-*seaborn
-*zipfile
-*earthpy
-*urllib.request
-*warnings
+* numpy
+* pandas
+* matplotlib
+* math
+* fiona
+* geopandas
+* rasterio
+* requests
+* seaborn
+* zipfile
+* earthpy
+* urllib.request
+* warnings
 ## Data Used
 GRanD: <a href="http://globaldamwatch.org/grand/" target="_blank">GRanD Dataset</a>
 * “Global River and Dam Database” (GRanD) Lehner, B., C. R. Liermann, C. Revenga, and others. 2011. High-resolution mapping of the world’s reservoirs and dams for sustainable river-flow management. Frontiers in Ecology and the Environment 9: 494–502. doi:10.1890/100125
 *Provides vector point locations for  7320 total recorded dams and reservoirs around the world as point shapefiles.
+
 FFR: <a href="https://doi.org/10.6084/m9.figshare.7688801" target="_blank">FFR dataset</a>
 * “Mapping the world's free-flowing rivers Geodatabase” (FFR) Grill, G., B. Lehner, M. Thieme, and others. 2019. Mapping the world’s free-flowing rivers. Nature 569: 215–221. doi:10.1038/s41586-019-1111-9
 * The dataset consists of a geometric network of the global river system and associated attributes, such as hydro-geometric properties, as well as connectivity metrics calculated using the methodologies described in the research article.
