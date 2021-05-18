@@ -24,11 +24,11 @@ This repository could be used for future projections on how dams might change a 
 * urllib.request
 * warnings
 ## Data Used
-GRanD: <a href="http://globaldamwatch.org/grand/" target="_blank">GRanD Dataset</a>
+<a href="http://globaldamwatch.org/grand/" target="_blank">GRanD Dataset</a>
 * “Global River and Dam Database” (GRanD) Lehner, B., C. R. Liermann, C. Revenga, and others. 2011. High-resolution mapping of the world’s reservoirs and dams for sustainable river-flow management. Frontiers in Ecology and the Environment 9: 494–502. doi:10.1890/100125
 *Provides vector point locations for  7320 total recorded dams and reservoirs around the world as point shapefiles.
 
-FFR: <a href="https://doi.org/10.6084/m9.figshare.7688801" target="_blank">FFR dataset</a>
+<a href="https://doi.org/10.6084/m9.figshare.7688801" target="_blank">FFR Dataset</a>
 * “Mapping the world's free-flowing rivers Geodatabase” (FFR) Grill, G., B. Lehner, M. Thieme, and others. 2019. Mapping the world’s free-flowing rivers. Nature 569: 215–221. doi:10.1038/s41586-019-1111-9
 * The dataset consists of a geometric network of the global river system and associated attributes, such as hydro-geometric properties, as well as connectivity metrics calculated using the methodologies described in the research article.
 ## Run Workflow
@@ -38,8 +38,9 @@ FFR: <a href="https://doi.org/10.6084/m9.figshare.7688801" target="_blank">FFR d
 4. Make sure you have downloaded and extracted the GRanD dataset manually from <a href="http://globaldamwatch.org/grand/" target="_blank">GRanD Dataset</a>
 5. Change the GRanD file path in the desired notebook to your GRand Dataset.
 6. In the notebook, Run All Cells.
-*In order to run all packages, we used the Earth Data Analytics python environment.
-*currently there is only one notebook “fergus-pinke-rantz-to-submit.ipynb”(a midterm blog post).
+
+* In order to run all packages, we used the Earth Data Analytics python environment.
+* currently there is only one notebook “fergus-pinke-rantz-to-submit.ipynb”(a midterm blog post).
 ## Example Usage
 Others can use the commands in this repository to link the GRanD and FFR datasets to look at other relationships among dam attributes (e.g., dam height, dam age) and river connectivity characteristics. The code is specific to the GRanD and FFR geospatial shapefile datasets, however, if these datasets are updated over time or dam and river data are available from other sources it would be possible to adapt the notebooks to perform similar analyses. One could also feasibly use other vector point file dam location datasets along with hydrology datasets to run similar analysis.
 
