@@ -1,4 +1,6 @@
 # Dam Impacts on Global River Connectivity
+[![DOI](https://zenodo.org/badge/368339473.svg)](https://zenodo.org/badge/latestdoi/368339473)
+
 This repository is for a research project, in partnership with the WWF (Jeff Opperman, Natalie Sharbol), focused on understanding and examining the impact of dams on the Connectivity Status Index of Free Flowing Rivers on a global scale. 
 ## Background/ Purpose
 Only a third of the world’s large rivers still have their free-flowing status and dams are the primary cause of this loss in river connectivity. However, we have a poor understanding of whether different dam purposes (e.g., hydroelectric, water supply) affect river connectivity differently and whether these relationships vary across regional settings. 
@@ -43,6 +45,3 @@ This repository could be used for future projections on how dams might change a 
 * currently there is only one notebook “fergus-pinke-rantz-to-submit.ipynb”(a midterm blog post).
 ## Example Usage
 Others can use the commands in this repository to link the GRanD and FFR datasets to look at other relationships among dam attributes (e.g., dam height, dam age) and river connectivity characteristics. The code is specific to the GRanD and FFR geospatial shapefile datasets, however, if these datasets are updated over time or dam and river data are available from other sources it would be possible to adapt the notebooks to perform similar analyses. One could also feasibly use other vector point file dam location datasets along with hydrology datasets to run similar analysis.
-
-
-
