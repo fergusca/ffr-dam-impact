@@ -36,12 +36,24 @@ This repository could be used for future projections on how dams might change a 
 ## Run Workflow
 1. Clone the repository https://github.com/krantz23/ffr-dam-impact, or download and decompress the zip file (see the green button for Clone or download).
 2. Open a terminal and change directories to this directory (cd ffr-dam-impact).
-3. Launch Jupyter Notebook and open desired exploration or final notebook.
+3. Follow steps in *Required Installations* (below)
+3. Launch Jupyter Notebook and open desired exploration or final notebook from the notebooks sub-directory.
 4. Make sure you have downloaded and extracted the GRanD dataset manually from <a href="http://globaldamwatch.org/grand/" target="_blank">GRanD Dataset</a>
 5. Change the GRanD file path in the desired notebook to your GRand Dataset.
 6. In the notebook, Run All Cells.
 
 * In order to run all packages, we used the Earth Data Analytics python environment.
 * currently there is only one notebook “fergus-pinke-rantz-to-submit.ipynb”(a midterm blog post).
+## Required Installations
+Install the environment.yml on your Local Computer.
+About Conda Environments: https://conda.io/docs/user-guide/tasks/manage-environments.html
+
+To install the environment in your Anaconda installation, run the following in the Terminal:
+
+conda env create -f environment.yml
+
+Note that it takes a bit of time to run this setup Also note that for the code above to work, you need to be in the directory where the environment.yml file lives.
+
+To activate this environment once it has been installed, run the following in the Terminal: On Windows, Mac, and Linux: conda activate environment
 ## Example Usage
 Others can use the commands in this repository to link the GRanD and FFR datasets to look at other relationships among dam attributes (e.g., dam height, dam age) and river connectivity characteristics. The code is specific to the GRanD and FFR geospatial shapefile datasets, however, if these datasets are updated over time or dam and river data are available from other sources it would be possible to adapt the notebooks to perform similar analyses. One could also feasibly use other vector point file dam location datasets along with hydrology datasets to run similar analysis.
