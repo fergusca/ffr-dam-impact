@@ -47,10 +47,13 @@ This repository could be used for future projections on how dams might change a 
 
 Or, run Bash script
 1. Activate workflow environment
+
 '$ conda activate ffr-dam-env'
 2. Make sure you are in the correct directory
+
 '$ cd ffr-dam-impact'
-3. Run bash scrip
+3. Run bash script
+
 '$ .main.sh'
 
 ## Required Installations
