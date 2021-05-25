@@ -44,6 +44,15 @@ This repository could be used for future projections on how dams might change a 
 
 * In order to run all packages, we used the Earth Data Analytics python environment.
 * currently there is only one notebook “fergus-pinke-rantz-to-submit.ipynb”(a midterm blog post).
+
+Or, run Bash script
+1. Activate workflow environment
+'$ conda activate ffr-dam-env'
+2. Make sure you are in the correct directory
+'$ cd ffr-dam-impact'
+3. Run bash scrip
+'$ .main.sh'
+
 ## Required Installations
 Install the environment.yml on your Local Computer.
 About Conda Environments: https://conda.io/docs/user-guide/tasks/manage-environments.html
