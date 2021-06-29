@@ -5,9 +5,9 @@ This repository is for a research project, in partnership with the WWF (Jeff Opp
 ## Background/ Purpose
 Only a third of the world’s large rivers still have their free-flowing status and dams are the primary cause of this loss in river connectivity. However, we have a poor understanding of whether different dam purposes (e.g., hydroelectric, water supply) affect river connectivity differently and whether these relationships vary across regional settings. 
 ## Goals
-For this project, we seek to examine patterns among dam purpose and metrics of river connectivity across the globe. We will compile global datasets on dam infrastructure and river hydro-geometric and connectivity properties to quantify relationships of dam impacts on river connectivity.  We will conduct a pilot study examining relationships in Africa to develop the project methodologies and workflow that can be scaled up to the globe.  
+For this project, we seek to examine patterns among dam purpose and metrics of river connectivity across the globe. We will compile global datasets on dam infrastructure and river hydro-geometric and connectivity properties to quantify relationships of dam impacts on river connectivity.  We originally conducted a pilot study examining relationships in Africa and were able to develop the project methodologies and workflow to the globe.  
 ## Unique Contribution
-The spatial join of Global Reservoir and Dam dataset (GRanD) and World’s Free-Flowing Rivers datasets (FFR)
+The attribute join of Global Reservoir and Dam dataset (GRanD) and World’s Free-Flowing Rivers datasets (FFR)
 ## Use
 This repository could be used for future projections on how dams might change a river or how dam removal may benefit a river. 
 # How to Run
@@ -18,7 +18,6 @@ This repository could be used for future projections on how dams might change a 
 * math
 * fiona
 * geopandas
-* rasterio
 * requests
 * seaborn
 * zipfile
@@ -38,12 +37,12 @@ This repository could be used for future projections on how dams might change a 
 2. Open a terminal and change directories to this directory (cd ffr-dam-impact).
 3. Follow steps in *Required Installations* (below)
 3. Launch Jupyter Notebook and open desired exploration or final notebook from the notebooks sub-directory.
-4. Make sure you have downloaded and extracted the GRanD dataset manually from <a href="http://globaldamwatch.org/grand/" target="_blank">GRanD Dataset</a>
-5. Change the GRanD file path in the desired notebook to your GRand Dataset.
+4. If you wish to see how the merge was done you can run the GRAND_FFR_merge_global_data.ipynb notebook. This is very data rich and will take time and lots of processing power.
+5. The data we got from the merging of the datasets is avaliable on figshare and is accessed through earthpy in our notebook "blog-final.ipynb".
 6. In the notebook, Run All Cells.
 
 * In order to run all packages, we used the Earth Data Analytics python environment.
-* currently there is only one notebook “fergus-pinke-rantz-to-submit.ipynb”(a midterm blog post).
+* currently there is only one notebook “blog-final.ipynb”.
 
 Or, run Bash script
 1. Activate workflow environment
