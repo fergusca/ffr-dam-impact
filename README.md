@@ -30,12 +30,14 @@ This repository could be used for future projections on how dams might change a 
 
 <a href="https://figshare.com/articles/dataset/GRanD-FFr-merge/14870148/1" target="_blank">GRanD-FFR Dataset Merge</a>
 * The dataset we created that merged the GRanD and FFR databases. It is a csv file that was joined by the GOID attribute
+## Citation
+See <a href="https://zenodo.org/record/5048760#.YN1FSejYrmU" target="_blank">Zenodo record</a> for version-specific citation
 ## Description of Files in Repository
 * .gitignore: file containing the appropriate lines to ignore .ipynb checkpoints for Jupyter Notebook
 * environment.yml: instructions to set up the environment used in the repository
-* LICENSE: allows others to be able to use, change and distripute as an open source
+* LICENSE: allows others to be able to use, change and distribute as an open source
 * main.sh: contains bash commands
-* README.md: contains project description, how to run the worflow and example usage
+* README.md: contains project description, how to run the workflow and example usage
 * notebooks directory containing
     * 01_grand_ffr_merge_global_data.ipynb: Jupyter Notebook containing code to merge GRanD and FFR datasets
     * 02_dam_river_flow_analysis_blog.ipynb:Jupyter Notebook containing the code and markdown to analyze global trends of dams river function 
@@ -48,12 +50,11 @@ This repository could be used for future projections on how dams might change a 
 2. Open a terminal and change directories to this directory (cd ffr-dam-impact).
 3. Follow steps in *Required Installations* (below)
 3. Launch Jupyter Notebook and open desired exploration or final notebook from the notebooks sub-directory.
-4. If you wish to see how the merge was done you can run the GRAND_FFR_merge_global_data.ipynb notebook. This is very data rich and will take time and lots of processing power.
-5. The data we got from the merging of the datasets is avaliable on figshare and is accessed through earthpy in our notebook "blog-final.ipynb".
+4. If you wish to see how the merge was done you can run the "01_grand_ffr_merge_global_data.ipynb" notebook. This is very data rich and will take time and lots of processing power.
+5. The data we got from the merging of the datasets is available on figshare and is accessed through earthpy in our notebook "02_dam_river_flow_analysis_blog.ipynb".
 6. In the notebook, Run All Cells.
 
 * In order to run all packages, we used the Earth Data Analytics python environment.
-* currently there is only one notebook “blog-final.ipynb”.
 
 Or, run Bash script
 1. Activate workflow environment
@@ -71,7 +72,7 @@ To install the environment in your Anaconda installation, run the following in t
 
 conda env create -f environment.yml
 
-Note that it takes a bit of time to run this setup Also note that for the code above to work, you need to be in the directory where the environment.yml file lives.
+Note that it takes a bit of time to run this setup. Also note that for the code above to work, you need to be in the directory where the environment.yml file lives.
 
 To activate this environment once it has been installed, run the following in the Terminal: On Windows, Mac, and Linux: conda activate environment
 ## Example Usage
